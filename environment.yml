@@ -1,0 +1,12 @@
+name: igarss-environment
+channels:
+  - conda-forge
+dependencies:
+- numpy
+- rasterio
+- shapely
+- pillow
+- pip:
+  - sat-search
+  - rio-tiler
+  - geojsonio
